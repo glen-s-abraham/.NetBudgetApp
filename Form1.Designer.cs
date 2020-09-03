@@ -31,60 +31,61 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_expense = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_expense = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(171)))), ((int)(((byte)(184)))));
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
@@ -102,7 +103,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(73)))), ((int)(((byte)(92)))));
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(39)))), ((int)(((byte)(77)))));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.panel2, 0, 1);
@@ -117,88 +118,19 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(229, 444);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // tableLayoutPanel3
+            // panel2
             // 
-            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(62)))));
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(238, 3);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 2;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.95495F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.04504F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(268, 444);
-            this.tableLayoutPanel3.TabIndex = 1;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(73)))), ((int)(((byte)(92)))));
-            this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.panel3, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.flowLayoutPanel1, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(512, 3);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 2;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.72973F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.27027F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(269, 444);
-            this.tableLayoutPanel4.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-10, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(105, 75);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(138)))), ((int)(((byte)(17)))));
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(262, 126);
-            this.panel1.TabIndex = 0;
-            // 
-            // btn_expense
-            // 
-            this.btn_expense.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(43)))), ((int)(((byte)(178)))));
-            this.btn_expense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_expense.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_expense.ForeColor = System.Drawing.Color.Snow;
-            this.btn_expense.Location = new System.Drawing.Point(9, 26);
-            this.btn_expense.Name = "btn_expense";
-            this.btn_expense.Size = new System.Drawing.Size(203, 54);
-            this.btn_expense.TabIndex = 0;
-            this.btn_expense.Text = "Track Expenses";
-            this.btn_expense.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(62)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Snow;
-            this.button1.Location = new System.Drawing.Point(9, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(203, 54);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Reset All";
-            this.button1.UseVisualStyleBackColor = false;
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btn_expense);
+            this.panel2.Location = new System.Drawing.Point(3, 136);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(223, 299);
+            this.panel2.TabIndex = 1;
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(62)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(72)))), ((int)(((byte)(102)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Snow;
@@ -210,209 +142,31 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // panel2
+            // button1
             // 
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.btn_expense);
-            this.panel2.Location = new System.Drawing.Point(3, 136);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(223, 299);
-            this.panel2.TabIndex = 1;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(72)))), ((int)(((byte)(102)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Snow;
+            this.button1.Location = new System.Drawing.Point(9, 101);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(203, 54);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Reset All";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // panel3
+            // btn_expense
             // 
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.textBox2);
-            this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Controls.Add(this.dateTimePicker1);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 135);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(263, 306);
-            this.panel3.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Snow;
-            this.label1.Location = new System.Drawing.Point(13, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Date";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Snow;
-            this.label2.Location = new System.Drawing.Point(13, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Category";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Snow;
-            this.label3.Location = new System.Drawing.Point(13, 122);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Amount";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Snow;
-            this.label4.Location = new System.Drawing.Point(13, 181);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Descreption";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(16, 27);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(232, 26);
-            this.dateTimePicker1.TabIndex = 4;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(16, 82);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(232, 26);
-            this.comboBox1.TabIndex = 5;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(16, 145);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 26);
-            this.textBox1.TabIndex = 6;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(16, 201);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 26);
-            this.textBox2.TabIndex = 7;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(43)))), ((int)(((byte)(178)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Snow;
-            this.button3.Location = new System.Drawing.Point(16, 247);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(232, 46);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Add Expense";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(15, 25);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 22);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Balance";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(14, 53);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 36);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "$3000";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(43)))), ((int)(((byte)(178)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Snow;
-            this.button4.Location = new System.Drawing.Point(142, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 97);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Add Balance";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel2);
-            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel3);
-            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel4);
-            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel5);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(263, 126);
-            this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(79)))), ((int)(((byte)(112)))));
-            this.flowLayoutPanel2.Controls.Add(this.label9);
-            this.flowLayoutPanel2.Controls.Add(this.label8);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(123, 57);
-            this.flowLayoutPanel2.TabIndex = 0;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(79)))), ((int)(((byte)(112)))));
-            this.flowLayoutPanel3.Controls.Add(this.label10);
-            this.flowLayoutPanel3.Controls.Add(this.label11);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(132, 3);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(123, 57);
-            this.flowLayoutPanel3.TabIndex = 1;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(79)))), ((int)(((byte)(112)))));
-            this.flowLayoutPanel4.Controls.Add(this.label12);
-            this.flowLayoutPanel4.Controls.Add(this.label13);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 66);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(123, 57);
-            this.flowLayoutPanel4.TabIndex = 2;
-            // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(79)))), ((int)(((byte)(112)))));
-            this.flowLayoutPanel5.Controls.Add(this.label14);
-            this.flowLayoutPanel5.Controls.Add(this.label15);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(132, 66);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(123, 57);
-            this.flowLayoutPanel5.TabIndex = 2;
+            this.btn_expense.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(156)))), ((int)(((byte)(202)))));
+            this.btn_expense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_expense.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_expense.ForeColor = System.Drawing.Color.Snow;
+            this.btn_expense.Location = new System.Drawing.Point(9, 26);
+            this.btn_expense.Name = "btn_expense";
+            this.btn_expense.Size = new System.Drawing.Size(203, 54);
+            this.btn_expense.TabIndex = 0;
+            this.btn_expense.Text = "Track Expenses";
+            this.btn_expense.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -435,16 +189,224 @@
             this.label7.TabIndex = 3;
             this.label7.Text = "Budget";
             // 
-            // label8
+            // pictureBox1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.LightGray;
-            this.label8.Location = new System.Drawing.Point(3, 22);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 24);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "$250";
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(-10, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(105, 75);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(171)))), ((int)(((byte)(184)))));
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(238, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 2;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.95495F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.04504F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(268, 444);
+            this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(39)))), ((int)(((byte)(77)))));
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(262, 126);
+            this.panel1.TabIndex = 0;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(156)))), ((int)(((byte)(202)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Snow;
+            this.button4.Location = new System.Drawing.Point(142, 13);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(108, 97);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Add Balance";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(14, 53);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(105, 36);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "$3000";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(15, 25);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 22);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Balance";
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(171)))), ((int)(((byte)(184)))));
+            this.tableLayoutPanel4.ColumnCount = 1;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Controls.Add(this.panel3, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.flowLayoutPanel1, 0, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(512, 3);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 2;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.72973F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.27027F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(269, 444);
+            this.tableLayoutPanel4.TabIndex = 2;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(39)))), ((int)(((byte)(77)))));
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.dateTimePicker1);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 135);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(263, 306);
+            this.panel3.TabIndex = 1;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(156)))), ((int)(((byte)(202)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Snow;
+            this.button3.Location = new System.Drawing.Point(16, 247);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(232, 46);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Add Expense";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(16, 201);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(232, 26);
+            this.textBox2.TabIndex = 7;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(16, 145);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(232, 26);
+            this.textBox1.TabIndex = 6;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(16, 82);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(232, 26);
+            this.comboBox1.TabIndex = 5;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(16, 27);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(232, 26);
+            this.dateTimePicker1.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Snow;
+            this.label4.Location = new System.Drawing.Point(13, 181);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 18);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Descreption";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Snow;
+            this.label3.Location = new System.Drawing.Point(13, 122);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(61, 18);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Amount";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Snow;
+            this.label2.Location = new System.Drawing.Point(13, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 18);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Category";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Snow;
+            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(42, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Date";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(171)))), ((int)(((byte)(184)))));
+            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel2);
+            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel3);
+            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel4);
+            this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel5);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(263, 126);
+            this.flowLayoutPanel1.TabIndex = 2;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(100)))), ((int)(((byte)(138)))));
+            this.flowLayoutPanel2.Controls.Add(this.label9);
+            this.flowLayoutPanel2.Controls.Add(this.label8);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(123, 57);
+            this.flowLayoutPanel2.TabIndex = 0;
             // 
             // label9
             // 
@@ -456,6 +418,27 @@
             this.label9.Size = new System.Drawing.Size(91, 22);
             this.label9.TabIndex = 4;
             this.label9.Text = "Shopping";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.LightGray;
+            this.label8.Location = new System.Drawing.Point(3, 22);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(58, 24);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "$250";
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(100)))), ((int)(((byte)(138)))));
+            this.flowLayoutPanel3.Controls.Add(this.label10);
+            this.flowLayoutPanel3.Controls.Add(this.label11);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(132, 3);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(123, 57);
+            this.flowLayoutPanel3.TabIndex = 1;
             // 
             // label10
             // 
@@ -479,6 +462,16 @@
             this.label11.TabIndex = 5;
             this.label11.Text = "$250";
             // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(100)))), ((int)(((byte)(138)))));
+            this.flowLayoutPanel4.Controls.Add(this.label12);
+            this.flowLayoutPanel4.Controls.Add(this.label13);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(3, 66);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(123, 57);
+            this.flowLayoutPanel4.TabIndex = 2;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -500,6 +493,16 @@
             this.label13.Size = new System.Drawing.Size(58, 24);
             this.label13.TabIndex = 5;
             this.label13.Text = "$250";
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(100)))), ((int)(((byte)(138)))));
+            this.flowLayoutPanel5.Controls.Add(this.label14);
+            this.flowLayoutPanel5.Controls.Add(this.label15);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(132, 66);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(123, 57);
+            this.flowLayoutPanel5.TabIndex = 2;
             // 
             // label14
             // 
@@ -530,18 +533,19 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(40)))), ((int)(((byte)(62)))));
             this.ClientSize = new System.Drawing.Size(784, 450);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
@@ -553,8 +557,6 @@
             this.flowLayoutPanel4.PerformLayout();
             this.flowLayoutPanel5.ResumeLayout(false);
             this.flowLayoutPanel5.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
