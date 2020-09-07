@@ -1,0 +1,10 @@
+C:\Users\Glen\source\repos\BudgetApp\bin\x64\Debug\BudgetApp.exe.config
+C:\Users\Glen\source\repos\BudgetApp\bin\x64\Debug\BudgetApp.exe
+C:\Users\Glen\source\repos\BudgetApp\bin\x64\Debug\BudgetApp.pdb
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.csprojAssemblyReference.cache
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.frmMain.resources
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.Properties.Resources.resources
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.csproj.GenerateResource.cache
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.csproj.CoreCompileInputs.cache
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.exe
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.pdb
