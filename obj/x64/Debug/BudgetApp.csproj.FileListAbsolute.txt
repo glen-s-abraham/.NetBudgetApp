@@ -8,3 +8,4 @@ C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.csproj.GenerateReso
 C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.csproj.CoreCompileInputs.cache
 C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.exe
 C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.pdb
+C:\Users\Glen\source\repos\BudgetApp\obj\x64\Debug\BudgetApp.frmTrack.resources

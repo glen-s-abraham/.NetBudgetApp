@@ -160,6 +160,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Reset All";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_expense
             // 
@@ -173,6 +174,7 @@
             this.btn_expense.TabIndex = 0;
             this.btn_expense.Text = "Track Expenses";
             this.btn_expense.UseVisualStyleBackColor = false;
+            this.btn_expense.Click += new System.EventHandler(this.btn_expense_Click);
             // 
             // panel4
             // 
@@ -593,8 +595,10 @@
             this.ClientSize = new System.Drawing.Size(1030, 450);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);

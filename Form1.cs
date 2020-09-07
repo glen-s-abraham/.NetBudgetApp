@@ -86,6 +86,27 @@ namespace BudgetApp
             cmdBalance.Dispose();
         }
 
+        private void btn_expense_Click(object sender, EventArgs e)
+        {
+            
+            var track = new frmTrack();
+            track.Show();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            conn.Close();
+        }
+
+       
+
+
         private void btnExpense_Click(object sender, EventArgs e)
         {
             if(txt_amount.Text!="" || txt_descreption.Text!="")
